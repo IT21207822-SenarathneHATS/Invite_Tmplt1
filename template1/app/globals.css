@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --royal-blue: #123c7c;
+  --soft-blue: #eaf3ff;
+  --gold: #d4af37;
+  --cream-white: #fffdf8;
+}
+
+body {
+  background: var(--cream-white);
+  color: #1f2937;
+  font-family: var(--font-poppins), sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-playfair), serif;
+}
+
+.luxury-gradient {
+  background:
+    radial-gradient(circle at top left, rgba(212, 175, 55, 0.18), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(18, 60, 124, 0.14), transparent 35%),
+    #fffdf8;
+}
+
+.gold-line {
+  width: 90px;
+  height: 2px;
+  background: var(--gold);
+  margin: 1rem auto;
+}
