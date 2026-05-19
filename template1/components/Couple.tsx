@@ -24,7 +24,7 @@ export default function Couple() {
 
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, x: -80 }}
+          initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}
@@ -40,7 +40,7 @@ export default function Couple() {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, x: 80 }}
+          initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}

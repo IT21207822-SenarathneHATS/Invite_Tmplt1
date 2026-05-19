@@ -10,7 +10,7 @@ export default function Hero() {
         initial={{ opacity: 0, scale: 0.85 }}
         animate={{ opacity: 0.18, scale: 1 }}
         transition={{ duration: 1.5 }}
-        className="absolute w-72 h-72 border border-blue-900 rounded-full"
+        className="absolute w-56 h-56 sm:w-72 sm:h-72 border border-blue-900 rounded-full"
       />
 
       <motion.p
